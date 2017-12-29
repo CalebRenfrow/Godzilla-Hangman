@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
+    <title>Document</title>
+    
+    
+</head>
+<body>
+        <div class = "container">
+                <div class = "jumbotron text-center">
+                        <h1><strong>Hang Godzilla</strong></h1>
+                </div>
+        </div>
+    
+    <div class = "container">
+        
+        <div class = "row">
+            <div class = "col-md-3">
+            </div>
+            <div class = "col-md-6 text-center vertical-center">
+                <p id = "monsterText">The monster's name will appear here</p>
+            </div>
+            <div class = "col-md-3">
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-6 text-center align-middle">
+                <p><img id='Monster' src='assets/images/ALIEN-EGG.png' alt = 'Current Monster'></p>
+            </div>
+            <div class = "col-md-6">
+                <div class = "row">
+                    <h1 class="text-center">  Wins: <span id="wins">0</span> Losses: <span id="losses">0</span> </h1>
+                    <h1 class="text-center"> <span id = "wordFill"> </span> </h1>
+                </div>
+                <div class = "row">
+                        <h1 class="text-center"> Guesses remaing and letters used</h1>
+                        <h1 class="text-center"> Remaing Guesses: <span id = 'guessesLeft'> 0</span> </h1>
+                        <h1 class="text-center"> Incorrect Letters Guessed: <span id = 'guessed'> </span> </h1>
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+                <div class = "col-md-12">
+                    <p></p>
+                </div>
+        </div>
+        
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
